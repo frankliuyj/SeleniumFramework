@@ -30,6 +30,7 @@ public class BaseCase {
 
 	public void stopDriver() {
 		baseDriver.stop();
+		baseDriver = null;
 	}
 
 }
