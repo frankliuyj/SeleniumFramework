@@ -3,3 +3,4 @@ target
 test-output
 .classpath
 .project
+src/test/java/com/frank/selenium/testcase/WaitTest.java
