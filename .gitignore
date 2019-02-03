@@ -5,3 +5,4 @@ test-output
 .project
 src/test/java/com/frank/selenium/testcase/WaitTest.java
 *.png
+src/test/java/com/frank/selenium/testcase/TestNGMySQL.java
