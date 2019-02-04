@@ -2,7 +2,7 @@ package com.frank.selenium.utils;
 
 import org.openqa.selenium.By;
 
-import com.frank.selenium.utils.datasource.CaseInpurtDataManager;
+import com.frank.selenium.utils.datasource.CaseInputDataManager;
 import com.frank.selenium.utils.datasource.IDataSource;
 
 
@@ -15,7 +15,7 @@ public class GetByLocator {
 		this.filepath = filePath;
 		if (prop == null) {
 			String args[] = new String[] {System.getProperty("user.dir") + filePath};
-			prop = CaseInpurtDataManager.getDataSourceManager("properties", args);
+			prop = CaseInputDataManager.getDataSourceManager("properties", args);
 		}
 	}
 
