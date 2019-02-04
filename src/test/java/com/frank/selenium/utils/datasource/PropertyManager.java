@@ -1,4 +1,4 @@
-package com.frank.selenium.utils;
+package com.frank.selenium.utils.datasource;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -6,7 +6,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-public class PropertyManager {
+public class PropertyManager implements IDataSource{
 
 	private String path = null;
 	private Properties prop = null;
