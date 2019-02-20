@@ -1,6 +1,6 @@
 package com.frank.selenium.utils;
 
-import com.frank.selenium.utils.datasource.CaseInpurtDataManager;
+import com.frank.selenium.utils.datasource.CaseInputDataManager;
 import com.frank.selenium.utils.datasource.IDataSource;
 
 public class GetTestcaseInputPara {
@@ -12,7 +12,7 @@ public class GetTestcaseInputPara {
 		this.filepath = filePath;
 		if (prop == null) {
 			String args[] = new String[] {"third","test"};
-			prop = CaseInpurtDataManager.getDataSourceManager("mongo", args);
+			prop = CaseInputDataManager.getDataSourceManager("mongo", args);
 		}
 	}
 
